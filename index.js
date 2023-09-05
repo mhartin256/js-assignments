@@ -25,9 +25,10 @@ function reverse() {
 document.write(reverse() + "</br>");
 
 function largest() {
-  const numbers = [2, 7, 4, 6, 12, 17];
+  const numbers = [2, 7, 4, 6, 12];
   return Math.max(...numbers);
 }
+
 document.write(largest());
 
 export { evenNumbers, reverse, largest };
